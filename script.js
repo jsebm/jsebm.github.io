@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     displayPosts('all');
     setupFilterButtons();
     setupNewsletter();
+    setupMobileMenu();
 });
 
 // Función para mostrar posts
@@ -163,6 +164,35 @@ function setupNewsletter() {
 function addPost(post) {
     posts.unshift(post); // Agregar al inicio del array
     displayPosts('all'); // Refrescar la visualización
+}
+
+// Configurar menú móvil
+function setupMobileMenu() {
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Cerrar menú al hacer clic en un enlace
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Cerrar menú al hacer clic fuera
+        document.addEventListener('click', (e) => {
+            if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+    }
 }
 
 // Smooth scroll para navegación

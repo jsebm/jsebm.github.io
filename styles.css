@@ -64,6 +64,37 @@ body {
     color: var(--primary-color);
 }
 
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 101;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-color);
+    margin: 3px 0;
+    transition: all 0.3s;
+    border-radius: 3px;
+}
+
+.menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
@@ -243,23 +274,90 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+    
     .nav-links {
-        gap: 1rem;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: var(--white);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+        z-index: 100;
+    }
+    
+    .nav-links.active {
+        right: 0;
+    }
+    
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-links a {
+        display: block;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .hero {
+        padding: 3rem 0;
     }
     
     .hero h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .posts-section {
+        padding: 2rem 0;
     }
     
     .posts-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .filter-buttons {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .filter-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
     }
     
     #newsletterForm {
         flex-direction: column;
     }
     
-    .filter-buttons {
-        flex-wrap: wrap;
+    .newsletter {
+        padding: 3rem 0;
+    }
+    
+    .newsletter h2 {
+        font-size: 1.5rem;
+    }
+    
+    .container {
+        padding: 0 15px;
     }
 }
