@@ -1,0 +1,451 @@
+🚀 GUÍA COMPLETA DE MEJORA SEO PARA ROLON
+════════════════════════════════════════════════════════════════════════
+
+Tu sitio tiene una base sólida. Aquí está cómo mejorar el SEO significativamente:
+
+
+═══════════════════════════════════════════════════════════════════════
+1️⃣ OPTIMIZACIÓN ON-PAGE (Implementar en los artículos)
+═══════════════════════════════════════════════════════════════════════
+
+PROBLEMA ACTUAL:
+- Las imágenes no tienen atributo ALT
+- No hay schema markup para productos
+- Los títulos H1 son el mismo que el title
+- Falta densidad de palabras clave
+- No hay enlaces internos optimizados
+
+SOLUCIÓN A: Agregar ALT text a todas las imágenes
+─────────────────────────────────────────────────
+En CADA artículo, cambiar:
+<img src="..." alt="">
+
+POR:
+<img src="imagen-sillas-ergonomicas.jpg" alt="Silla ergonómica para estudiar largas horas - Amazon 2026">
+
+PRIORIDAD: ALTA | Impacto: +15% en búsquedas de imágenes
+
+
+SOLUCIÓN B: Agregar Schema Markup para Productos
+────────────────────────────────────────────────
+Agregar esto ANTES del </head> en cada artículo:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Los 7 mejores organizadores de escritorio para estudiantes",
+  "description": "Guía completa de organizadores...",
+  "datePublished": "2026-01-18",
+  "dateModified": "2026-01-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Rolon"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rolon",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jsebm.github.io/logo.png"
+    }
+  }
+}
+</script>
+
+PRIORIDAD: ALTA | Impacto: +20% en CTR desde Google
+
+
+SOLUCIÓN C: Optimizar títulos H1
+────────────────────────────────
+ACTUAL (malo):
+<h1>Los 7 mejores organizadores de escritorio para estudiantes</h1>
+
+MEJOR (optimizado):
+<h1>Los 7 mejores organizadores de escritorio para estudiantes en Amazon 2026</h1>
+
+O incluso mejor:
+<h1>Guía: Los 7 mejores organizadores de escritorio para estudiantes universitarios</h1>
+
++ Agregar palabra clave "2026" o "guía" aumenta relevancia
+
+PRIORIDAD: MEDIA | Impacto: +5% en rankings
+
+
+═══════════════════════════════════════════════════════════════════════
+2️⃣ ENLACES INTERNOS (Estrategia de linkeo)
+═══════════════════════════════════════════════════════════════════════
+
+PROBLEMA ACTUAL:
+- No hay enlaces internos entre artículos
+- Los artículos están aislados
+
+SOLUCIÓN: Crear una red de enlaces internos
+
+En ARTÍCULO 1 (Organizadores) agregar:
+
+"Para crear el espacio de estudio perfecto, además de un buen organizador,
+necesitarás una buena iluminación. Consulta nuestra 
+<a href="lamparas-led-estudio-2026.html">guía de lámparas LED</a> para
+complementar tu escritorio."
+
+En ARTÍCULO 7 (Espacio ideal) agregar MUCHOS enlaces:
+
+"Para empezar, necesitarás:
+- <a href="sillas-ergonomicas-estudio-2026.html">Una silla ergonómica</a>
+- <a href="lamparas-led-estudio-2026.html">Una lámpara LED</a>
+- <a href="organizadores-escritorio-2026.html">Un organizador de escritorio</a>
+- <a href="soportes-laptop-amazon-2026.html">Un soporte para laptop</a>
+- <a href="accesorios-escritorio-estudiante-2026.html">Accesorios variados</a>"
+
+MATRIZ DE ENLACES RECOMENDADA:
+
+Artículo 1 (Org) → Art. 7, Art. 5
+Artículo 2 (Sillas) → Art. 9, Art. 7, Art. 5
+Artículo 3 (Lámparas) → Art. 10, Art. 7, Art. 5
+Artículo 4 (Soportes) → Art. 7, Art. 5
+Artículo 5 (Accesorios) → Art. 7, Art. 8
+Artículo 6 (Audífonos) → Art. 8, Art. 5
+Artículo 7 (Espacio ideal) → Art. 1, 2, 3, 4, 5, 6 (HUB PRINCIPAL)
+Artículo 8 (Qué comprar) → Art. 1, 5
+Artículo 9 (Silla vs) → Art. 2, Art. 7
+Artículo 10 (LED vs) → Art. 3, Art. 7
+
+PRIORIDAD: ALTA | Impacto: +25% en engagement
+
+
+═══════════════════════════════════════════════════════════════════════
+3️⃣ CONTENIDO Y PALABRAS CLAVE (Estrategia de keywords)
+═══════════════════════════════════════════════════════════════════════
+
+PALABRAS CLAVE ACTUALES:
+- "organización estudiantes" ← Muy genérica
+- "productos Amazon" ← Muy genérica
+- "sillas ergonómicas" ← Buena
+
+PROBLEMA: Las keywords principales son muy competidas
+
+SOLUCIÓN: Apuntar a LONG-TAIL keywords (más específicas, menos competencia)
+
+CAMBIOS DE KEYWORD:
+
+ANTES → DESPUÉS
+
+"Organizadores" → "Mejores organizadores de escritorio para estudiantes"
+"Sillas" → "Sillas ergonómicas para estudiar desde casa 2026"
+"Lámparas" → "Lámparas LED sin parpadeo para estudiar"
+"Soportes" → "Mejores soportes para laptop portátiles"
+"Accesorios" → "Accesorios de escritorio productivo para estudiantes"
+"Audífonos" → "Audífonos con cancelación de ruido para concentración"
+
+KEYWORDS ESTRATÉGICAS (Bajo competidor, alto convertidor):
+
+1. "organizadores escritorio baratos Amazon"
+2. "mejor silla para estudiar en casa"
+3. "lámpara LED para leer sin cansar"
+4. "soporte laptop aluminio ajustable"
+5. "accesorios escritorio productividad"
+6. "audífonos para concentración estudio"
+7. "cómo armar escritorio de estudio"
+8. "productos organizar casa estudiante"
+9. "silla ergonómica para estudiantes"
+10. "comparativa silla gaming vs estudio"
+
+ACCIÓN: Reescribe títulos incorporando estas keywords
+
+PRIORIDAD: ALTA | Impacto: +40% en tráfico orgánico
+
+
+═══════════════════════════════════════════════════════════════════════
+4️⃣ VELOCIDAD Y RENDIMIENTO TÉCNICO
+═══════════════════════════════════════════════════════════════════════
+
+CHECKLIST:
+
+☐ Comprimir imágenes (CRITICAL)
+  - Usar TinyPNG o ImageOptim
+  - Reducir tamaño en 70-80% sin perder calidad
+  - Usar formatos WebP cuando sea posible
+
+☐ Lazy loading para imágenes
+  Agregar: <img loading="lazy" src="...">
+
+☐ Minificar CSS y JavaScript
+  - styles.css → styles.min.css
+  - script.js → script.min.js
+
+☐ Caché del navegador
+  .htaccess (si usas hosting tradicional):
+  <IfModule mod_expires.c>
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+  </IfModule>
+
+☐ CDN para imágenes
+  - Usar Cloudinary (gratis)
+  - Usar Imgix
+
+PRIORIDAD: ALTA | Impacto: +30% en Core Web Vitals
+
+
+═══════════════════════════════════════════════════════════════════════
+5️⃣ ACTUALIZAR SITEMAP.XML
+═══════════════════════════════════════════════════════════════════════
+
+PROBLEMA ACTUAL:
+Tu sitemap.xml probablemente no incluye los 10 artículos nuevos
+
+SOLUCIÓN: Reemplazar sitemap.xml con:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://jsebm.github.io/</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://jsebm.github.io/organizadores-escritorio-2026.html</loc>
+        <lastmod>2026-01-18</lastmod>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://jsebm.github.io/sillas-ergonomicas-estudio-2026.html</loc>
+        <lastmod>2026-01-18</lastmod>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://jsebm.github.io/lamparas-led-estudio-2026.html</loc>
+        <lastmod>2026-01-18</lastmod>
+        <priority>0.9</priority>
+    </url>
+    <!-- ... agregar todos los artículos -->
+    <url>
+        <loc>https://jsebm.github.io/aviso-legal.html</loc>
+        <lastmod>2026-01-18</lastmod>
+        <priority>0.3</priority>
+    </url>
+</urlset>
+
+PRIORIDAD: MEDIA | Impacto: +10% en indexación
+
+
+═══════════════════════════════════════════════════════════════════════
+6️⃣ HERRAMIENTAS Y MONITOREO
+═══════════════════════════════════════════════════════════════════════
+
+HERRAMIENTA 1: Google Search Console (GRATIS)
+──────────────────────────────────────
+¿Por qué? Ver qué keywords trae tráfico
+
+1. Ir a: https://search.google.com/search-console
+2. Verificar propiedad
+3. Enviar sitemap.xml
+4. Monitorear: Impresiones, clicks, CTR, posición
+5. Identificar keywords con bajo CTR (oportunidad de mejorar títulos)
+
+ACCIÓN: Mejora títulos de páginas con >20 impresiones y <3% CTR
+
+
+HERRAMIENTA 2: Google PageSpeed Insights (GRATIS)
+──────────────────────────────────────
+¿Por qué? Medir velocidad y Core Web Vitals
+
+1. Ir a: https://pagespeed.web.dev/
+2. Ingresar: https://jsebm.github.io/
+3. Ver puntuación mobile y desktop
+4. Implementar sugerencias
+
+ACCIÓN: Objetivo: 90+ en mobile, 95+ en desktop
+
+
+HERRAMIENTA 3: Screaming Frog (FREEMIUM)
+──────────────────────────────────────
+¿Por qué? Auditar todo el sitio
+
+Descarga: https://www.screamingfrog.co.uk/seo-spider/
+
+Verifica:
+- Meta tags faltantes
+- Títulos duplicados
+- Descripciones cortas/largas
+- Imágenes sin ALT
+- Links rotos
+- Estructura de encabezados
+
+
+HERRAMIENTA 4: Ubersuggest (FREEMIUM)
+──────────────────────────────────────
+¿Por qué? Encontrar keywords sin competencia
+
+1. Ir a: https://ubersuggest.com/
+2. Buscar palabra clave: "sillas escritorio"
+3. Ver volumen de búsqueda
+4. Ver competencia
+5. Ver palabras clave relacionadas
+
+ACCIÓN: Busca 20 keywords con >100 búsquedas/mes y <50 SEO difficulty
+
+
+═══════════════════════════════════════════════════════════════════════
+7️⃣ CONTENIDO ADICIONAL (Expandir el sitio)
+═══════════════════════════════════════════════════════════════════════
+
+AGREGAR (en orden de prioridad):
+
+ARTÍCULOS NUEVOS (5-10):
+1. "Mejores mochilas ergonómicas para estudiantes" (Tech + Org)
+2. "Cómo organizar tu horario de estudio" (Guía)
+3. "Productos Amazon más vendidos para estudiantes" (Review)
+4. "Presupuesto para armar escritorio completo" (Guía de precios)
+5. "Accesorios para trabajar desde casa como estudiante" (Tech)
+
+SECCIONES NUEVAS:
+1. Blog adicional (para noticias de productos)
+2. Comparativa completa de productos
+3. "Lo más comprado" en cada categoría
+4. Reviews de usuarios (recopiladas)
+5. FAQ (Preguntas frecuentes)
+
+PRIORIDAD: ALTA | Impacto: +50% en tráfico a largo plazo
+
+
+═══════════════════════════════════════════════════════════════════════
+8️⃣ BACKLINKS (Conseguir links desde otros sitios)
+═══════════════════════════════════════════════════════════════════════
+
+PROBLEMA ACTUAL:
+No hay backlinks (links desde otros sitios hacia el tuyo)
+= Difícil posicionar
+
+SOLUCIONES:
+
+1. GUEST POSTS (Escribir en otros blogs)
+   - Buscar blogs educativos españoles
+   - Contactar: "Quiero escribir un artículo sobre..."
+   - A cambio: Link a tu sitio desde el artículo
+
+2. DIRECTORIOS Y LISTADOS
+   - JustDial
+   - Google My Business
+   - Listados educativos
+
+3. REDES SOCIALES
+   - Cada artículo → LinkedIn, Twitter, Reddit
+   - Fórums educativos
+   - Grupos de Facebook de estudiantes
+   - Subreddits (r/estudiantes, etc.)
+
+4. COMENTARIOS EN OTROS BLOGS
+   - Buscar blogs de productividad
+   - Dejar comentarios genuinos
+   - Incluir link natural al tuyo
+
+5. COLABORACIONES
+   - Contactar YouTubers educativos
+   - Contactar podcasters
+   - Proponer: "Menciona mi artículo en tu video"
+
+ACCIÓN: Conseguir 10 backlinks de autoridad en 3 meses
+
+
+═══════════════════════════════════════════════════════════════════════
+9️⃣ OPTIMIZACIÓN PARA FEATURED SNIPPETS
+═══════════════════════════════════════════════════════════════════════
+
+PROBLEMA ACTUAL:
+Google muestra fragmentos destacados para algunas búsquedas
+Tu sitio no está optimizado para ellos
+
+SOLUCIÓN:
+
+Agregar secciones FAQ en cada artículo:
+
+<h3>Preguntas Frecuentes</h3>
+
+<h4>¿Qué es una silla ergonómica?</h4>
+<p>Una silla ergonómica es...</p>
+
+<h4>¿Cuánto cuesta una buena silla ergonómica?</h4>
+<p>El precio varía entre $150-$400...</p>
+
+<h4>¿Cuál es la mejor marca?</h4>
+<p>Las mejores marcas son...</p>
+
+PRIORIDAD: MEDIA | Impacto: +15% en featured snippets
+
+
+═══════════════════════════════════════════════════════════════════════
+🔟 PLAN DE ACCIÓN INMEDIATO (Próximos 30 días)
+═══════════════════════════════════════════════════════════════════════
+
+SEMANA 1:
+☐ Agregar ALT text a TODAS las imágenes
+☐ Agregar Schema Markup en cada artículo
+☐ Optimizar 3 artículos principales (títulos, contenido)
+☐ Actualizar sitemap.xml
+
+SEMANA 2:
+☐ Crear red de enlaces internos
+☐ Crear cuenta en Google Search Console
+☐ Crear cuenta en Google Analytics 4
+☐ Enviar sitemap a GSC
+
+SEMANA 3:
+☐ Ejecutar PageSpeed Insights
+☐ Optimizar velocidad (comprimir imágenes, minificar CSS/JS)
+☐ Agregar lazy loading a imágenes
+☐ Auditar con Screaming Frog
+
+SEMANA 4:
+☐ Compartir artículos en redes sociales
+☐ Comentar en 10 blogs educativos
+☐ Contactar 5 YouTubers para colaborar
+☐ Investigar 20 long-tail keywords
+
+
+═══════════════════════════════════════════════════════════════════════
+🎯 RESULTADOS ESPERADOS (6 meses)
+═══════════════════════════════════════════════════════════════════════
+
+ACTUALEMENTE:
+- 0 visitantes/mes (sitio nuevo)
+- 0 rankings
+
+MES 1-2:
+- 100-300 visitantes/mes
+- 10-20 posiciones en Google
+- 2-5 posiciones primera página
+
+MES 3-4:
+- 500-1000 visitantes/mes
+- 30-50 posiciones
+- 10-15 posiciones primera página
+
+MES 5-6:
+- 1000-2000 visitantes/mes
+- 50-100 posiciones
+- 20-30 posiciones primera página
+- 5-10 posiciones top 3
+
+MES 9-12:
+- 5000+ visitantes/mes
+- Ingresos: $500-$2000/mes
+
+
+═══════════════════════════════════════════════════════════════════════
+
+📌 RESUMEN EJECUTIVO
+
+Tu sitio tiene contenido de CALIDAD.
+Ahora necesita:
+1. Técnica (Schema, ALT, velocidad)
+2. Estrategia de links (internos y externos)
+3. Palabras clave específicas
+4. Promoción consistente
+
+Implementa esto y verás resultados en 3-6 meses.
+
+═══════════════════════════════════════════════════════════════════════

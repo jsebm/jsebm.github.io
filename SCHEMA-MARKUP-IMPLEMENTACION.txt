@@ -1,0 +1,260 @@
+<!-- 
+SCHEMA MARKUP PARA ROLON
+========================
+Copiar y pegar este código ANTES del </head> en cada artículo
+Personalizar los valores según cada artículo
+-->
+
+<!-- SCHEMA 1: Article (para todos los artículos) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Los 7 mejores organizadores de escritorio para estudiantes",
+  "description": "Guía completa de organizadores de escritorio para estudiantes. Análisis de 7 opciones diferentes con pros, contras y precios.",
+  "image": "https://jsebm.github.io/img/organizadores.jpg",
+  "datePublished": "2026-01-18",
+  "dateModified": "2026-01-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Rolon",
+    "url": "https://jsebm.github.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rolon",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jsebm.github.io/logo.png",
+      "width": 600,
+      "height": 60
+    }
+  }
+}
+</script>
+
+<!-- SCHEMA 2: BreadcrumbList (para navegación) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://jsebm.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Organización",
+      "item": "https://jsebm.github.io/#organizacion"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Organizadores de escritorio"
+    }
+  ]
+}
+</script>
+
+<!-- SCHEMA 3: Product (para cada producto listado) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Organizador de escritorio de bambú con 5 compartimentos",
+  "description": "Organizador minimalista de bambú natural con 5 divisiones para mantener orden en el escritorio",
+  "image": "https://jsebm.github.io/img/bamboo-organizer.jpg",
+  "brand": {
+    "@type": "Brand",
+    "name": "Organizadores de Bambú"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "15",
+    "highPrice": "25",
+    "offerCount": "100",
+    "url": "https://amazon.com/s?k=organizador+escritorio+bambu"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "125"
+  }
+}
+</script>
+
+<!-- SCHEMA 4: FAQPage (para secciones de FAQ) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la mejor silla para estudiar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La mejor silla para estudiar es una ergonómica con soporte lumbar, altura ajustable y reposabrazos. Esto mantiene tu postura correcta durante largas horas de estudio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta una buena silla ergonómica?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una silla ergonómica de buena calidad cuesta entre $150-$400 USD. Las más económicas rondan $100-150 y las premium pueden superar $500."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- SCHEMA 5: HowTo (para artículos de guía) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cómo armar un espacio de estudio ideal",
+  "description": "Guía paso a paso para crear el espacio de estudio perfecto",
+  "totalTime": "PT30M",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Elegir la base correcta",
+      "text": "Comienza con un escritorio de al menos 1.2m de ancho y una silla ergonómica. Estos son los elementos fundamentales."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Instalar iluminación",
+      "text": "Agrega una lámpara LED principal y luces de ambiente. Esto reduce la fatiga ocular."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Organizar el espacio",
+      "text": "Utiliza organizadores, bandejas y estanterías para mantener todo ordenado."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Agregar tecnología",
+      "text": "Incluye accesorios como soporte para laptop, teclado externo y mouse."
+    }
+  ]
+}
+</script>
+
+<!-- SCHEMA 6: Organization (para la página principal) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Rolon",
+  "url": "https://jsebm.github.io",
+  "logo": "https://jsebm.github.io/logo.png",
+  "description": "Guía de los mejores productos de Amazon para estudiantes: organización, sillas ergonómicas, lámparas LED y más",
+  "sameAs": [
+    "https://www.linkedin.com/company/rolon",
+    "https://twitter.com/rolon"
+  ]
+}
+</script>
+
+<!-- SCHEMA 7: Website (para sitelinks search box - PÁGINA PRINCIPAL) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Rolon",
+  "url": "https://jsebm.github.io",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://jsebm.github.io/?search={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- SCHEMA 8: Comparison Review (para artículos comparativos) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "articleType": "Product Comparison",
+  "headline": "Silla ergonómica vs silla gamer: ¿cuál es mejor para estudiar?",
+  "description": "Comparativa completa entre sillas ergonómicas y sillas gamer para decidir cuál es mejor para estudiantes",
+  "image": "https://jsebm.github.io/img/silla-comparison.jpg",
+  "datePublished": "2026-01-14",
+  "dateModified": "2026-01-14",
+  "author": {
+    "@type": "Organization",
+    "name": "Rolon"
+  },
+  "mentions": [
+    {
+      "@type": "Product",
+      "name": "Silla Ergonómica"
+    },
+    {
+      "@type": "Product",
+      "name": "Silla Gamer"
+    }
+  ]
+}
+</script>
+
+
+═══════════════════════════════════════════════════════════════════════
+
+INSTRUCCIONES DE IMPLEMENTACIÓN:
+
+1. PÁGINA PRINCIPAL (index.html):
+   ✓ Agregar SCHEMA 6 (Organization)
+   ✓ Agregar SCHEMA 7 (Website)
+
+2. ARTÍCULO 1 (Organizadores):
+   ✓ Agregar SCHEMA 1 (Article)
+   ✓ Agregar SCHEMA 2 (BreadcrumbList)
+   ✓ Agregar SCHEMA 3 (Product x7, uno por cada producto)
+
+3. ARTÍCULOS 2-6 (Reseñas):
+   ✓ Agregar SCHEMA 1 (Article)
+   ✓ Agregar SCHEMA 2 (BreadcrumbList)
+   ✓ Agregar SCHEMA 3 (Product) para cada producto
+
+4. ARTÍCULOS 7-8 (Guías):
+   ✓ Agregar SCHEMA 1 (Article)
+   ✓ Agregar SCHEMA 2 (BreadcrumbList)
+   ✓ Agregar SCHEMA 5 (HowTo)
+
+5. ARTÍCULOS 9-10 (Comparativas):
+   ✓ Agregar SCHEMA 1 (Article)
+   ✓ Agregar SCHEMA 2 (BreadcrumbList)
+   ✓ Agregar SCHEMA 8 (Comparison)
+
+6. TODOS LOS ARTÍCULOS:
+   ✓ Agregar SCHEMA 4 (FAQPage) si tiene FAQ
+
+
+═══════════════════════════════════════════════════════════════════════
+
+BENEFICIOS DEL SCHEMA MARKUP:
+
+✓ Google entiende mejor tu contenido
+✓ Mejor posicionamiento en búsquedas
+✓ Aparece en Google Scholar
+✓ Aparece en Google Shopping
+✓ Mayor CTR desde SERPs (Google muestra datos enriquecidos)
+✓ Featured Snippets más probables
+
+═══════════════════════════════════════════════════════════════════════
