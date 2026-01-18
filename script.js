@@ -1,58 +1,94 @@
-// Base de datos de posts (puedes expandir esto con más posts)
+// Base de datos de posts - Enfocado en: Organización + Estudiantes + Hogar
 const posts = [
     {
         id: 1,
-        title: "Los Mejores Audífonos Inalámbricos 2026",
-        excerpt: "Descubre los audífonos con mejor calidad de sonido y cancelación de ruido del mercado.",
-        category: "audifonos",
-        image: "https://via.placeholder.com/400x200/2563eb/ffffff?text=Audifonos+Inalambricos",
-        date: "15 Enero 2026",
-        url: "audifonos-inalambricos-2026.html"
+        title: "Los 7 mejores organizadores de escritorio para estudiantes (Amazon)",
+        excerpt: "Guía completa de organizadores de escritorio que todo estudiante necesita. Optimiza tu espacio de estudio con productos de Amazon.",
+        category: "organizacion",
+        image: "https://via.placeholder.com/400x200/2563eb/ffffff?text=Organizadores+Escritorio",
+        date: "18 Enero 2026",
+        url: "organizadores-escritorio-2026.html"
     },
     {
         id: 2,
-        title: "Audífonos Gaming: Guía Completa",
-        excerpt: "Los mejores audífonos para juegos con sonido envolvente 7.1 y micrófono de alta calidad.",
-        category: "audifonos",
-        image: "https://via.placeholder.com/400x200/1e40af/ffffff?text=Audifonos+Gaming",
-        date: "14 Enero 2026",
-        url: "audifonos-gaming-2026.html"
+        title: "Mejores sillas ergonómicas para estudiar largas horas en casa",
+        excerpt: "Análisis completo de sillas ergonómicas diseñadas para estudiantes. Evita dolores de espalda y mejora tu productividad.",
+        category: "estudio",
+        image: "https://via.placeholder.com/400x200/1e40af/ffffff?text=Sillas+Ergonomicas",
+        date: "18 Enero 2026",
+        url: "sillas-ergonomicas-estudio-2026.html"
     },
     {
         id: 3,
-        title: "Aspiradora Robot: Análisis Completo",
-        excerpt: "Revisión exhaustiva de las mejores aspiradoras robot del 2026 con mapeo inteligente.",
-        category: "hogar",
-        image: "https://via.placeholder.com/400x200/059669/ffffff?text=Aspiradora+Robot",
-        date: "13 Enero 2026",
-        url: "aspiradora-robot-2026.html"
+        title: "Las mejores lámparas LED para estudiar sin cansar la vista",
+        excerpt: "Descubre las lámparas LED ideales para tu escritorio. Reduce la fatiga ocular y estudia más horas sin cansancio.",
+        category: "estudio",
+        image: "https://via.placeholder.com/400x200/059669/ffffff?text=Lamparas+LED",
+        date: "18 Enero 2026",
+        url: "lamparas-led-estudio-2026.html"
     },
     {
         id: 4,
-        title: "Licuadoras de Alta Potencia",
-        excerpt: "Comparativa de las mejores licuadoras para smoothies y preparaciones caseras.",
-        category: "hogar",
-        image: "https://via.placeholder.com/400x200/7c3aed/ffffff?text=Licuadoras",
-        date: "12 Enero 2026",
-        url: "licuadoras-alta-potencia-2026.html"
+        title: "Los mejores soportes para laptop en Amazon (guía 2026)",
+        excerpt: "Comparativa de soportes para laptop que todo estudiante necesita. Ergonómicos y portátiles para cualquier espacio.",
+        category: "tecnologia",
+        image: "https://via.placeholder.com/400x200/7c3aed/ffffff?text=Soportes+Laptop",
+        date: "17 Enero 2026",
+        url: "soportes-laptop-amazon-2026.html"
     },
     {
         id: 5,
-        title: "Audífonos Deportivos Resistentes al Agua",
-        excerpt: "Los mejores audífonos para hacer ejercicio con resistencia IPX7 y gran autonomía.",
-        category: "audifonos",
-        image: "https://via.placeholder.com/400x200/dc2626/ffffff?text=Audifonos+Deportivos",
-        date: "11 Enero 2026",
-        url: "audifonos-deportivos-2026.html"
+        title: "Top accesorios de escritorio que todo estudiante necesita",
+        excerpt: "Los 10 accesorios esenciales para un escritorio productivo: organizadores, cables, bandejas y más productos útiles.",
+        category: "tecnologia",
+        image: "https://via.placeholder.com/400x200/dc2626/ffffff?text=Accesorios+Escritorio",
+        date: "17 Enero 2026",
+        url: "accesorios-escritorio-estudiante-2026.html"
     },
     {
         id: 6,
-        title: "Cafeteras Automáticas: Top 5",
-        excerpt: "Las cafeteras más vendidas con molinillo integrado y programación automática.",
-        category: "hogar",
-        image: "https://via.placeholder.com/400x200/ea580c/ffffff?text=Cafeteras",
-        date: "10 Enero 2026",
-        url: "cafeteras-automaticas-2026.html"
+        title: "Los mejores audífonos para estudiar y concentrarse (Amazon)",
+        excerpt: "Selección de audífonos ideales para bloquear distracciones mientras estudias. Cancelación de ruido y comodidad garantizadas.",
+        category: "tecnologia",
+        image: "https://via.placeholder.com/400x200/ea580c/ffffff?text=Audifonos+Estudio",
+        date: "16 Enero 2026",
+        url: "audifonos-estudio-concentracion-2026.html"
+    },
+    {
+        id: 7,
+        title: "Cómo armar un espacio de estudio ideal con productos de Amazon",
+        excerpt: "Guía paso a paso para crear el espacio de estudio perfecto. Incluye checklist de productos y recomendaciones.",
+        category: "guias",
+        image: "https://via.placeholder.com/400x200/f59e0b/ffffff?text=Espacio+Estudio+Ideal",
+        date: "16 Enero 2026",
+        url: "espacio-estudio-ideal-amazon-2026.html"
+    },
+    {
+        id: 8,
+        title: "Qué comprar en Amazon para organizar la universidad desde casa",
+        excerpt: "Guía práctica para estudiantes: qué productos comprar para tener todo organizado. Artículos para notas, deberes y materiales.",
+        category: "guias",
+        image: "https://via.placeholder.com/400x200/8b5cf6/ffffff?text=Organizar+Universidad",
+        date: "15 Enero 2026",
+        url: "organizar-universidad-amazon-2026.html"
+    },
+    {
+        id: 9,
+        title: "Silla ergonómica vs silla gamer: ¿cuál es mejor para estudiar?",
+        excerpt: "Comparativa directa entre sillas ergonómicas y sillas gamer. Análisis de pros, contras y cuál es ideal para estudiantes.",
+        category: "guias",
+        image: "https://via.placeholder.com/400x200/3b82f6/ffffff?text=Silla+Ergo+vs+Gamer",
+        date: "14 Enero 2026",
+        url: "silla-ergonomica-vs-gamer-2026.html"
+    },
+    {
+        id: 10,
+        title: "Lámpara LED vs lámpara tradicional para estudiar: ¿cuál conviene?",
+        excerpt: "Análisis completo: LED vs tradicional para tu escritorio. Eficiencia energética, salud visual y presupuesto comparados.",
+        category: "guias",
+        image: "https://via.placeholder.com/400x200/06b6d4/ffffff?text=LED+vs+Tradicional",
+        date: "13 Enero 2026",
+        url: "lampara-led-vs-tradicional-2026.html"
     }
 ];
 
@@ -123,8 +159,10 @@ function createPostCard(post) {
 // Obtener nombre de categoría legible
 function getCategoryName(category) {
     const names = {
-        'audifonos': 'Audífonos',
-        'hogar': 'Hogar'
+        'organizacion': 'Organización',
+        'estudio': 'Estudio',
+        'tecnologia': 'Tecnología',
+        'guias': 'Guías'
     };
     return names[category] || category;
 }

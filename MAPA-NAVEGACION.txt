@@ -1,0 +1,300 @@
+📍 MAPA DE NAVEGACIÓN DEL SITIO ROLON
+════════════════════════════════════════════════════════════════════════
+
+🏠 HOME (index.html)
+│
+├─ [Filtro: Todos] → Muestra los 10 artículos
+│
+├─ [Filtro: Organización]
+│  └─ Art. 1: Organizadores de escritorio
+│
+├─ [Filtro: Estudio]
+│  ├─ Art. 2: Sillas ergonómicas
+│  └─ Art. 3: Lámparas LED
+│
+├─ [Filtro: Tecnología]
+│  ├─ Art. 4: Soportes para laptop
+│  ├─ Art. 5: Accesorios de escritorio
+│  └─ Art. 6: Audífonos para estudiar
+│
+├─ [Filtro: Guías]
+│  ├─ Art. 7: Espacio de estudio ideal
+│  ├─ Art. 8: Qué comprar para organizar
+│  ├─ Art. 9: Silla ergonómica vs gamer
+│  └─ Art. 10: LED vs lámpara tradicional
+│
+├─ [Newsletter] → Formulario de suscripción
+│
+└─ [Footer]
+   ├─ Disclaimer de afiliados
+   ├─ Link: Aviso Legal
+   └─ Link: Política de Privacidad
+
+
+📊 DESGLOSE DE ARTÍCULOS POR CLICK
+════════════════════════════════════════════════════════════════════════
+
+ARTÍCULO 1: Organizadores de escritorio
+├─ Introducción y contexto
+├─ 7 opciones de productos
+├─ Tabla comparativa
+├─ ~7 links a Amazon
+└─ Conclusión
+
+ARTÍCULO 2: Sillas ergonómicas
+├─ Importancia de postura correcta
+├─ 3 tipos de sillas
+├─ Tabla comparativa
+├─ Tips de uso
+├─ ~3 links a Amazon
+└─ Conclusión
+
+ARTÍCULO 3: Lámparas LED
+├─ Importancia de iluminación correcta
+├─ Características de LED ideal
+├─ 3 tipos de lámparas
+├─ Temperatura de color explicada
+├─ ~3 links a Amazon
+└─ Conclusión
+
+ARTÍCULO 4: Soportes para laptop
+├─ Por qué se necesita un soporte
+├─ Características clave
+├─ 3 tipos de soportes
+├─ Tabla comparativa
+├─ ~3 links a Amazon
+└─ Conclusión
+
+ARTÍCULO 5: Accesorios de escritorio
+├─ Introducción
+├─ 10 accesorios listados
+│  ├─ Gestor de cables
+│  ├─ Bandeja para documentos
+│  ├─ Soporte para móvil
+│  ├─ Teclado externo
+│  ├─ Mouse inalámbrico
+│  ├─ Hub USB
+│  └─ ... (más items)
+└─ ~6 links a Amazon
+
+ARTÍCULO 6: Audífonos para estudiar
+├─ Importancia para concentración
+├─ Tipos de cancelación de ruido
+├─ 3 opciones diferentes
+├─ Tabla comparativa
+├─ ~3 links a Amazon
+└─ Conclusión
+
+ARTÍCULO 7: Espacio de estudio ideal (GUÍA COMPLETA)
+├─ Paso 1: Base
+│  └─ Escritorio + Silla
+├─ Paso 2: Iluminación
+│  └─ Lámpara principal + luces ambiente
+├─ Paso 3: Organización
+│  └─ Organizador + Bandeja + Estanterías
+├─ Paso 4: Tecnología
+│  └─ Soporte laptop + Teclado + Mouse + Audífonos
+├─ Checklist interactivo (6 items)
+├─ Presupuestos (básico/intermedio/premium)
+├─ ~6 links a Amazon
+└─ Conclusión
+
+ARTÍCULO 8: Qué comprar para organizar (GUÍA PRÁCTICA)
+├─ Introducción
+├─ Sección 1: Apuntes y documentos (3 productos)
+│  ├─ Archivador
+│  ├─ Carpetas clasificadoras
+│  └─ Etiquetas
+├─ Sección 2: Tareas y horarios (3 productos)
+│  ├─ Calendario
+│  ├─ Tablero de corcho
+│  └─ Notas adhesivas
+├─ Sección 3: Materiales (3 productos)
+│  ├─ Estanterías
+│  ├─ Cajas de almacenamiento
+│  └─ Separadores
+├─ Checklist de compra (8 items)
+├─ ~9 links a Amazon
+└─ Conclusión
+
+ARTÍCULO 9: Silla ergonómica vs gamer (COMPARATIVA)
+├─ Introducción a la pregunta
+├─ Silla Ergonómica
+│  ├─ 6 Pros
+│  └─ 3 Contras
+├─ Silla Gamer
+│  ├─ 5 Pros
+│  └─ 4 Contras
+├─ Tabla comparativa (7 aspectos)
+├─ Análisis: Cuál elegir para estudiar
+├─ ~2 links a Amazon
+└─ Conclusión
+
+ARTÍCULO 10: LED vs lámpara tradicional (COMPARATIVA)
+├─ Introducción
+├─ Lámparas Tradicionales
+│  ├─ 4 Pros
+│  └─ 6 Contras
+├─ Lámparas LED
+│  ├─ 7 Pros
+│  └─ 3 Contras
+├─ Tabla comparativa económica (7 aspectos)
+├─ Análisis de cuál elegir
+├─ Consejos al comprar LED
+├─ ~2 links a Amazon
+└─ Conclusión
+
+AVISO LEGAL
+├─ 10 secciones legales
+├─ Información de afiliados
+└─ Contacto
+
+POLÍTICA DE PRIVACIDAD
+├─ 11 secciones
+├─ GDPR compliant
+└─ Contacto
+
+
+📊 MATRIZ DE CONTENIDO POR INTENCIÓN DE BÚSQUEDA
+════════════════════════════════════════════════════════════════════════
+
+BÚSQUEDAS INFORMATIVAS (Traffic intent):
+- "qué es una silla ergonómica"
+- "beneficios de lámparas LED"
+→ Artículos 2, 3, 7, 8
+
+BÚSQUEDAS COMPARATIVAS (Decision intent):
+- "silla ergonómica vs gamer"
+- "LED vs lámpara tradicional"
+→ Artículos 9, 10 (MEJOR CONVERSIÓN)
+
+BÚSQUEDAS DE PRODUCTO (Purchase intent):
+- "mejores sillas ergonómicas Amazon"
+- "organizadores escritorio baratos"
+→ Artículos 1, 2, 3, 4, 5, 6 (ALTA CONVERSIÓN)
+
+BÚSQUEDAS DE GUÍA (Solution intent):
+- "cómo armar espacio de estudio"
+- "qué comprar para organizar"
+→ Artículos 7, 8 (TRÁFICO MASIVO)
+
+
+🎯 RUTA DE CONVERSIÓN IDEAL
+════════════════════════════════════════════════════════════════════════
+
+1️⃣ Usuario llega desde Google
+   ↓
+2️⃣ Lee un artículo (ej: "Qué comprar para organizar")
+   ↓
+3️⃣ Ve 9 enlaces de afiliado en el artículo
+   ↓
+4️⃣ Hace clic en "Ver en Amazon"
+   ↓
+5️⃣ Amazon Associates registra el click
+   ↓
+6️⃣ Usuario compra en Amazon (dentro de 24h)
+   ↓
+7️⃣ TÚ ganas comisión del 3-10%
+
+
+💰 ESTIMACIÓN DE LINKS POR ARTÍCULO
+════════════════════════════════════════════════════════════════════════
+
+Art. 1 (Organizadores):      7 links
+Art. 2 (Sillas):            3 links
+Art. 3 (Lámparas):          3 links
+Art. 4 (Soportes):          3 links
+Art. 5 (Accesorios):        6 links
+Art. 6 (Audífonos):         3 links
+Art. 7 (Espacio ideal):      6 links
+Art. 8 (Organizar):         9 links  ← MÁXIMO POTENCIAL
+Art. 9 (Silla vs):          2 links
+Art. 10 (LED vs):           2 links
+                           ─────────
+TOTAL DE LINKS:            44 links de afiliado
+
+
+🔗 OPORTUNIDADES DE ENLACES INTERNOS
+════════════════════════════════════════════════════════════════════════
+
+ARTÍCULO 1 (Organizadores) puede linkear a:
+├─ Art. 7: "Completa tu espacio con esto"
+└─ Art. 5: "Con estos accesorios adicionales"
+
+ARTÍCULO 2 (Sillas) puede linkear a:
+├─ Art. 9: "Compara ergonómica vs gamer"
+├─ Art. 7: "Parte de tu espacio ideal"
+└─ Art. 5: "Con estos accesorios"
+
+ARTÍCULO 3 (Lámparas) puede linkear a:
+├─ Art. 10: "Compara LED vs tradicional"
+├─ Art. 7: "Parte de tu espacio ideal"
+└─ Art. 5: "Accesorios complementarios"
+
+...Y ASÍ SUCESIVAMENTE
+
+ARTÍCULOS GUÍA (7-10) son "hubs" que deberían linkear a TODOS los demás
+
+
+📱 ESTRUCTURA DE CADA PÁGINA
+════════════════════════════════════════════════════════════════════════
+
+Encabezado:
+├─ Logo Rolon
+├─ Menu de navegación
+└─ Hamburger menu (móvil)
+
+Contenido principal:
+├─ Título H1 + Meta info (fecha, categoría)
+├─ Introducción
+├─ Secciones con H2
+├─ Listas y tablas
+├─ Productos con enlaces
+├─ CTA ("Ver en Amazon")
+└─ Conclusión
+
+Pie de página:
+├─ Copyright
+├─ Links legales
+│  ├─ Aviso Legal
+│  └─ Política de Privacidad
+└─ Disclaimer de afiliados
+
+
+🎨 ELEMENTOS VISUALES POR PÁGINA
+════════════════════════════════════════════════════════════════════════
+
+HOME:
+- Hero section grande
+- Filtros de categoría
+- Grid de 10 tarjetas de posts
+- Newsletter form
+- Disclaimer section
+
+ARTÍCULOS:
+- Título llamativo
+- Fecha y categoría
+- Imágenes del producto (placeholder ahora)
+- Tabla comparativa
+- Botones amarillos de Amazon
+- Texto descriptivo
+
+PÁGINAS LEGALES:
+- Título
+- Texto estructurado en secciones
+- Fácil lectura
+
+
+════════════════════════════════════════════════════════════════════════
+
+Este mapa muestra la estructura completa del sitio y cómo los usuarios
+navegarán a través de él para encontrar información y hacer clic en tus
+enlaces de afiliado.
+
+La clave está en:
+1. Contenido relevante y útil
+2. Múltiples opciones de enlaces
+3. Navegación clara
+4. CTAs visibles y naturales
+
+════════════════════════════════════════════════════════════════════════
