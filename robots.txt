@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /*.js
+Disallow: /*.css
+
+# Sitemap
+Sitemap: https://jsebm.github.io/sitemap.xml
+
+# Crawl delay para bots respetuosos
+Crawl-delay: 1
