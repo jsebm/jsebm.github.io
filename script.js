@@ -6,7 +6,8 @@ const posts = [
         excerpt: "Descubre los audífonos con mejor calidad de sonido y cancelación de ruido del mercado.",
         category: "audifonos",
         image: "https://via.placeholder.com/400x200/2563eb/ffffff?text=Audifonos+Inalambricos",
-        date: "15 Enero 2026"
+        date: "15 Enero 2026",
+        url: "audifonos-inalambricos-2026.html"
     },
     {
         id: 2,
@@ -14,7 +15,8 @@ const posts = [
         excerpt: "Los mejores audífonos para juegos con sonido envolvente 7.1 y micrófono de alta calidad.",
         category: "audifonos",
         image: "https://via.placeholder.com/400x200/1e40af/ffffff?text=Audifonos+Gaming",
-        date: "14 Enero 2026"
+        date: "14 Enero 2026",
+        url: "audifonos-gaming-2026.html"
     },
     {
         id: 3,
@@ -22,7 +24,8 @@ const posts = [
         excerpt: "Revisión exhaustiva de las mejores aspiradoras robot del 2026 con mapeo inteligente.",
         category: "hogar",
         image: "https://via.placeholder.com/400x200/059669/ffffff?text=Aspiradora+Robot",
-        date: "13 Enero 2026"
+        date: "13 Enero 2026",
+        url: "aspiradora-robot-2026.html"
     },
     {
         id: 4,
@@ -30,7 +33,8 @@ const posts = [
         excerpt: "Comparativa de las mejores licuadoras para smoothies y preparaciones caseras.",
         category: "hogar",
         image: "https://via.placeholder.com/400x200/7c3aed/ffffff?text=Licuadoras",
-        date: "12 Enero 2026"
+        date: "12 Enero 2026",
+        url: "licuadoras-alta-potencia-2026.html"
     },
     {
         id: 5,
@@ -38,7 +42,8 @@ const posts = [
         excerpt: "Los mejores audífonos para hacer ejercicio con resistencia IPX7 y gran autonomía.",
         category: "audifonos",
         image: "https://via.placeholder.com/400x200/dc2626/ffffff?text=Audifonos+Deportivos",
-        date: "11 Enero 2026"
+        date: "11 Enero 2026",
+        url: "audifonos-deportivos-2026.html"
     },
     {
         id: 6,
@@ -46,7 +51,8 @@ const posts = [
         excerpt: "Las cafeteras más vendidas con molinillo integrado y programación automática.",
         category: "hogar",
         image: "https://via.placeholder.com/400x200/ea580c/ffffff?text=Cafeteras",
-        date: "10 Enero 2026"
+        date: "10 Enero 2026",
+        url: "cafeteras-automaticas-2026.html"
     }
 ];
 
@@ -104,10 +110,10 @@ function createPostCard(post) {
         </div>
     `;
 
-    // Click en la tarjeta para ver más detalles
+    // Click en la tarjeta para abrir el artículo completo
     card.addEventListener('click', (e) => {
         if (!e.target.classList.contains('amazon-btn')) {
-            showPostDetail(post);
+            window.location.href = post.url;
         }
     });
 
@@ -140,10 +146,9 @@ function setupFilterButtons() {
     });
 }
 
-// Mostrar detalle del post (puedes expandir esto para mostrar un modal o página individual)
+// Abrir artículo completo
 function showPostDetail(post) {
-    alert(`Clic en: ${post.title}\n\nEn una versión completa, esto abriría una página de detalle con la reseña completa.`);
-    // Aquí podrías implementar un modal o redirigir a una página individual
+    window.location.href = post.url;
 }
 
 // Configurar formulario de newsletter
