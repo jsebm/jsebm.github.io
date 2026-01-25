@@ -1,4 +1,4 @@
-# Blog de Reseñas de Productos - Rolon
+# Blog de Reseñas de Productos - Estudia Organizado
 
 Blog enfocado en **Organización + Estudiantes + Hogar**: Los mejores productos de Amazon para estudiantes que quieren mejorar su productividad, organizar su espacio y optimizar su hogar.
 
@@ -25,7 +25,7 @@ Proporcionar guías completas, reseñas honestas y comparativas de productos Ama
 ## 📁 Estructura del Proyecto
 
 ```
-Rolon_A/
+Estudia_Organizado/
 ├── index.html                                    # Página principal
 ├── styles.css                                    # Estilos del blog
 ├── script.js                                     # Funcionalidad JavaScript
